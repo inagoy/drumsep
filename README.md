@@ -2,7 +2,7 @@
 Separación de baterías a partir de modelo de Hybrid Demucs. <br />
 
 <p align="left">
-<img src="http://www.unq.edu.ar/images/logo_unqui.png" alt="Universidad Nacional de Quilmes."
+<img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes."
 width="200px"></p>
 
 ### Con Google Colab
