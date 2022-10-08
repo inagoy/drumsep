@@ -13,11 +13,11 @@ Para utilizar el modelo de manera sencilla online. <br />
 ### Con Linux
 Teniendo instalado pip. <br />
   1. Clonar el repositorio.
-  2. Instalación de Demucs y descarga del Modelo Final.
+  2. Instalar
 ```bash
 bash drumsepInstall
 ```
-  2. Separar <br />
+  2. Separar
   <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar. <br />
   <PATH_OUT> : Ruta del directorio donde se exportarán los audios generados. <br />
 ```bash
