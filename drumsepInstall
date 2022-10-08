@@ -8,8 +8,8 @@ fi
 if [ ! -d "model" ] && [ $? -eq 0 ]; then
 	mkdir "model"
 	cd "model"
-	if [ "$(pip list | grep -F gdrive)" == "" ]; then
-		pip install gdrive
+	if [ "$(pip list | grep -F gdown)" == "" ]; then
+		pip install gdown
 	fi
 	gdown 15eooSWblsJLwJ7EauxGrlmoSypgwG8ug
 	cd ../
