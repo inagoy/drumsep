@@ -5,7 +5,7 @@ Código para facilitar el acceso al Modelo Final presentado en la tesis “Separ
 <img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes.">
 </p>
 
-El modelo toma como entrada un audio (mp3, wav, flac o ogg) y exporta 4 audios correspondientes a las siguientes fuentes:
+El modelo toma como entrada un audio (mp3, wav, flac o ogg) correspondiente a la grabación de una batería y exporta 4 audios clasificados como:
 * Bombo
 * Redoblante
 * Platillos
