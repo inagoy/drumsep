@@ -1,5 +1,5 @@
 # drumsep
-Separación de baterías a partir de modelo de Hybrid Demucs. <br />
+Separación de baterías a partir de un modelo de Hybrid Demucs. <br />
 
 <p align="left">
 <img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes.">
