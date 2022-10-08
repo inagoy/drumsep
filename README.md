@@ -1,5 +1,10 @@
 # drumsep
-Separación de baterías a partir de un modelo de Hybrid Demucs <br />
+Separación de baterías a partir de un modelo de Hybrid Demucs. <br />
+El modelo toma como entrada un audio (mp3, wav, flac o ogg) y exporta 4 audios correspondientes a las siguientes fuentes:
+* Bombo
+* Redoblante
+* Platillos
+* Toms
 
 Código para facilitar el acceso al Modelo Final presentado en la tesis “Separación de fuentes  en grabaciones de batería mediante aprendizaje automático” (2022).
 <p align="left">
