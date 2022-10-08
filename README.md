@@ -7,5 +7,20 @@ Código para facilitar el acceso al Modelo Final presentado en la tesis “Separ
 </p>
 
 ### Con Google Colab
-Para utilizar el modelo de manera sencilla sin instalar ninguna dependencia. <br />
+Para utilizar el modelo de manera sencilla sin instalar ninguna dependencia extra. <br />
 [Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
+
+### Con Linux
+Teniendo instalado pip y el módulo gdrive. <br />
+  1. Clonar el repositorio
+  2. Ejecutar el instalador de demucs y del Modelo Final
+```bash
+bash drumsepInstall
+```
+  2. Separar <br />
+  <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar <br />
+  <PATH_OUT> : Ruta del directorio donde se exportaran los audios generados <br />
+```bash
+bash drumsepExecute "<PATH_IN>" "<PATH_OUT>"
+```
+
