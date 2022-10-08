@@ -8,7 +8,7 @@ Código para facilitar el acceso al Modelo Final presentado en la tesis “Separ
 
 ### Con Google Colab
 Para utilizar el modelo de manera sencilla online. <br />
-[Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
+### [Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
 
 ### Con Linux
 Teniendo instalado pip. <br />
