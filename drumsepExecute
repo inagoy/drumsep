@@ -2,12 +2,14 @@
 if [ $# -ne 2 ]; then
 	exit 1
 fi
+input=${1}
+output=${2}
 shopt -s nullglob
 if [ -d "$1" ]; then
-	for file in "$1"/*.{mp3,wav,ogg,flac}; do 
-		demucs --repo "model" -o \"$2\" -n modelo_final \"$file\"
+	for file in $input/*.{mp3,wav,ogg,flac}; do 
+    demucs --repo "model" -o "$output" -n modelo_final "$file"
 	done
 else
-	demucs --repo "model" -o \"$2\" -n modelo_final \"$1\"
+	demucs --repo "model" -o "$output" -n modelo_final "$input"
 fi
 exit 0
