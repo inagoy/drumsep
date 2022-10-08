@@ -1,7 +1,7 @@
 # drumsep
 Separación de baterías a partir de un modelo de Hybrid Demucs <br />
 
-Código para facilitar el acceso al Modelo Final presentado en la tesis “Separación <br /> de fuentes  en grabaciones de batería mediante aprendizaje automático” (2022).
+Código para facilitar el acceso al Modelo Final presentado en la tesis “Separación de fuentes  en grabaciones de batería mediante aprendizaje automático” (2022).
 <p align="left">
 <img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes.">
 </p>
