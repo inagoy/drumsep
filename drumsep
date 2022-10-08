@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -ne 0 ]; then
+	exit 1
+fi
+path=$(dirname "$0")
+version=$(pip list | grep -F demucs)
+if [ "$version" == "" ]; then
+	pip install demucs
+fi
+if [ ! -d "model" ] && [ $? -eq 0 ]; then
+	mkdir model
+	cd model
+	gdown 15eooSWblsJLwJ7EauxGrlmoSypgwG8ug
+	cd ../
+fi
+exit 0
