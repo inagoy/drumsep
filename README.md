@@ -13,7 +13,7 @@ Para utilizar el modelo de manera sencilla sin instalar ninguna dependencia extr
 ### Con Linux
 Teniendo instalado pip <br />
   1. Clonar el repositorio
-  2. Ejecutar el instalador de demucs y del Modelo Final
+  2. Instalación de Demucs y descarga del Modelo Final
 ```bash
 bash drumsepInstall
 ```
