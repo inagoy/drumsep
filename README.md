@@ -1,6 +1,5 @@
 # drumsep
-Modelo de Hybrid Demucs para la separación de baterías. <br />
-Hybrid Demucs model for drum separation.
+Separación de baterías a partir de modelo de Hybrid Demucs. <br />
 
 ### Usando Colab
 Para utilizar el modelo de manera sencilla sin instalar ninguna dependencia. <br />
