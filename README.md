@@ -15,12 +15,12 @@ Teniendo instalado pip <br />
   1. Clonar el repositorio
   2. Instalación de Demucs y descarga del Modelo Final
 ```bash
-bash separate
+bash drumsepInstall
 ```
   2. Separar <br />
   <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar <br />
   <PATH_OUT> : Ruta del directorio donde se exportaran los audios generados <br />
 ```bash
-bash drumsepExecute "<PATH_IN>" "<PATH_OUT>"
+bash separate "<PATH_IN>" "<PATH_OUT>"
 ```
 
