@@ -1,6 +1,6 @@
 # drumsep
 Separación de baterías a partir de un modelo de Hybrid Demucs. <br />
-
+Repositorio correspondiente al Modelo Final presentado en la tesis “Separación de fuentes en grabaciones de batería mediante aprendizaje automático”
 <p align="left">
 <img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes.">
 </p>
