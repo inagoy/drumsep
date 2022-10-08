@@ -15,7 +15,7 @@ Teniendo instalado pip <br />
   1. Clonar el repositorio
   2. Instalación de Demucs y descarga del Modelo Final
 ```bash
-bash drumsepInstall
+bash separate
 ```
   2. Separar <br />
   <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar <br />
