@@ -1,5 +1,5 @@
 # drumsep
-Separación de baterías a partir de un modelo de Hybrid Demucs. <br />
+Separación de baterías a partir de un modelo de Hybrid Demucs <br />
 
 Código para facilitar el acceso al Modelo Final presentado en la tesis “Separación <br /> de fuentes  en grabaciones de batería mediante aprendizaje automático” (2022).
 <p align="left">
@@ -12,14 +12,14 @@ Para utilizar el modelo de manera sencilla online. <br />
 
 ### Con Linux
 Teniendo instalado pip. <br />
-  1. Clonar el repositorio
-  2. Instalación de Demucs y descarga del Modelo Final
+  1. Clonar el repositorio.
+  2. Instalación de Demucs y descarga del Modelo Final.
 ```bash
 bash drumsepInstall
 ```
   2. Separar <br />
-  <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar <br />
-  <PATH_OUT> : Ruta del directorio donde se exportaran los audios generados <br />
+  <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar. <br />
+  <PATH_OUT> : Ruta del directorio donde se exportarán los audios generados. <br />
 ```bash
 bash drumsep "<PATH_IN>" "<PATH_OUT>"
 ```
