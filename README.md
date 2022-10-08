@@ -12,7 +12,7 @@ El modelo toma como entrada un audio (mp3, wav, flac o ogg) correspondiente a la
 * Toms
 
 ### Con Google Colab
-Para utilizar el modelo de manera sencilla online. <br />
+Para utilizar el modelo de manera sencilla online: <br />
 [Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
 
 ### Con Linux
