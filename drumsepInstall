@@ -2,14 +2,15 @@
 if [ $# -ne 0 ]; then
 	exit 1
 fi
-version=$(pip list | grep -F demucs)
-if [ "$version" == "" ]; then
+if [ "$(pip list | grep -F demucs)" == "" ]; then
 	pip install demucs
 fi
 if [ ! -d "model" ] && [ $? -eq 0 ]; then
 	mkdir "model"
 	cd "model"
-	pip install gdrive
+	if [ "$(pip list | grep -F gdrive)" == "" ]; then
+		pip install gdrive
+	fi
 	gdown 15eooSWblsJLwJ7EauxGrlmoSypgwG8ug
 	cd ../
 fi
