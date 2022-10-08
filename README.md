@@ -21,6 +21,6 @@ bash drumsepInstall
   <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar <br />
   <PATH_OUT> : Ruta del directorio donde se exportaran los audios generados <br />
 ```bash
-bash separate "<PATH_IN>" "<PATH_OUT>"
+bash drumsep "<PATH_IN>" "<PATH_OUT>"
 ```
 
