@@ -7,11 +7,11 @@ Código para facilitar el acceso al Modelo Final presentado en la tesis “Separ
 </p>
 
 ### Con Google Colab
-Para utilizar el modelo de manera sencilla online <br />
+Para utilizar el modelo de manera sencilla online. <br />
 [Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
 
 ### Con Linux
-Teniendo instalado pip <br />
+Teniendo instalado pip. <br />
   1. Clonar el repositorio
   2. Instalación de Demucs y descarga del Modelo Final
 ```bash
