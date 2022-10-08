@@ -9,6 +9,7 @@ fi
 if [ ! -d "model" ] && [ $? -eq 0 ]; then
 	mkdir "model"
 	cd "model"
+	pip install gdrive
 	gdown 15eooSWblsJLwJ7EauxGrlmoSypgwG8ug
 	cd ../
 fi
