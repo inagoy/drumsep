@@ -11,7 +11,7 @@ Para utilizar el modelo de manera sencilla sin instalar ninguna dependencia extr
 [Notebook de drumsep](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
 
 ### Con Linux
-Teniendo instalado pip: <br />
+Teniendo instalado pip <br />
   1. Clonar el repositorio
   2. Ejecutar el instalador de demucs y del Modelo Final
 ```bash
