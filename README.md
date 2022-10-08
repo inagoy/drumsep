@@ -24,8 +24,8 @@ Teniendo instalado pip. <br />
 bash drumsepInstall
 ```
   3. Separar <br />
-  <PATH_IN> : Ruta del archivo de audio o directorio contendedor de archivos de audio a separar. <br />
-  <PATH_OUT> : Ruta del directorio donde se exportarán los audios generados. <br />
+  <PATH_IN>  Ruta del archivo de audio o directorio contendedor de archivos de audio a separar. <br />
+  <PATH_OUT> Ruta del directorio donde se exportarán los audios generados. <br />
 ```bash
 bash drumsep "<PATH_IN>" "<PATH_OUT>"
 ```
