@@ -2,5 +2,12 @@
 if [ $# -ne 2 ]; then
 	exit 1
 fi
-!demucs --repo "model" -o $1 -n 49469ca8 $2
+shopt -s nullglob
+if [ -d "$1" ]; then
+	for file in "$1"/*.{mp3,wav,ogg,flac}; do 
+		demucs --repo "model" -o \"$2\" -n modelo_final \"$file\"
+	done
+else
+	demucs --repo "model" -o \"$2\" -n modelo_final \"$1\"
+fi
 exit 0
