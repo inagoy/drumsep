@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ $# -ne 2 ]; then
+	exit 1
+fi
+!demucs --repo "model" -o $1 -n 49469ca8 $2
+exit 0
