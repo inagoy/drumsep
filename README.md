@@ -8,8 +8,8 @@ Code to facilitate access to the model presented in the thesis "Separación de f
 
 The model takes as input an audio file (mp3, wav, flac, or ogg) corresponding to a drum recording and exports 4 audio files classified as:
 * Bombo (Kick)
-* Redoblante(Snare)
-* Platillos(Cymbals)
+* Redoblante (Snare)
+* Platillos (Cymbals)
 * Toms
 
 
@@ -20,7 +20,7 @@ To easily use the model online: <br />
 ### With Linux
 Having pip installed. <br />
   1. Clone repo.
-  2. Install
+  2. Install.
 ```bash
 bash drumsepInstall
 ```
