@@ -1,6 +1,6 @@
 # drumsep
 Drum separation based on a [Hybrid Demucs](https://github.com/facebookresearch/demucs) model. <br />
-Code to facilitate access to the Final Model presented in the thesis "Separación de fuentes  en grabaciones de batería mediante aprendizaje automático" (2022).
+Code to facilitate access to the model presented in the thesis "Separación de fuentes  en grabaciones de batería mediante aprendizaje automático" (2022).
 
 <p align="left">
 <img src="https://euda.unq.edu.ar/wp-content/uploads/2021/05/logos-UNQ-265x65-1.png" alt="Universidad Nacional de Quilmes.">
