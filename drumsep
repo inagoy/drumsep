@@ -7,9 +7,9 @@ output=${2}
 shopt -s nullglob
 if [ -d "$1" ]; then
 	for file in $input/*.{mp3,wav,ogg,flac}; do 
-    		demucs --repo "model" -o "$output" -n modelo_final "$file"
+    		demucs --repo "model" -o "$output" -n 49469ca8 "$file"
 	done
 else
-	demucs --repo "model" -o "$output" -n modelo_final "$input"
+	demucs --repo "model" -o "$output" -n 49469ca8 "$input"
 fi
 exit 0
