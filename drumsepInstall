@@ -11,7 +11,7 @@ if [ ! -d "model" ] && [ $? -eq 0 ]; then
 	if [ "$(pip list | grep -F gdown)" == "" ]; then
 		pip install gdown
 	fi
-	gdown 15zooSWblsJLrJ7EauxGrlmoSypgwG8ug
+	gdown 1-Dm666ScPkg8Gt2-lK3Ua0xOudWHZBGC
 	cd ../
 fi
 exit 0
