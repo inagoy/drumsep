@@ -13,6 +13,7 @@ RUN git clone https://github.com/inagoy/drumsep.git
 RUN cd drumsep && mkdir model
 RUN cd /drumsep/model && gdown 1-Dm666ScPkg8Gt2-lK3Ua0xOudWHZBGC
 RUN chmod 755 /drumsep/drumsep
+RUN mkdir /data
 
 # Set the working directory
 WORKDIR /drumsep
