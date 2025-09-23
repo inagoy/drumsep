@@ -12,6 +12,9 @@ The model takes as input an audio file (mp3, wav, flac, or ogg) corresponding to
 * Platillos (Cymbals)
 * Toms
 
+# GCP job
+
+check dockerapp/GCP-job/cloudbuild.yaml
 
 ### With Google Colab
 To easily use the model online: <br />
@@ -32,3 +35,8 @@ bash drumsep "<PATH_IN>" "<PATH_OUT>"
 ```
 
 (Efforts are currently underway to advance research and document progress for this project, with the ultimate objective of sharing valuable insights with the wider community).
+
+# Ref
+
+“Separación de fuentes en grabaciones de batería mediante aprendizaje automático”. Por Iñaki Goyeneche. 
+https://drive.google.com/file/d/1pqsujRU_kqjG6ymWDqohg45ShCskZCBQ/view 
