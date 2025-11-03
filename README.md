@@ -15,7 +15,7 @@ The model takes as input an audio file (mp3, wav, flac, or ogg) corresponding to
 
 ### With Google Colab
 To easily use the model online: <br />
-[drumsep Notebook](https://colab.research.google.com/drive/14uxUczAYP9EUZLZmA_uWv5I_mDU7iqJS?usp=sharing)
+[drumsep Notebook](https://colab.research.google.com/drive/1UQSv0wGhGgnwcbqIAYb4ykfWIeoaXaqh?usp=sharing)
 
 ### With Linux
 Having pip installed. <br />
