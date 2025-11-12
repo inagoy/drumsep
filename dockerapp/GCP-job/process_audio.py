@@ -32,6 +32,9 @@ def upload_blob(bucket_name, source_file_name, destination_blob_name):
     blob.upload_from_filename(source_file_name)
 
 def process_files():
+    # Ensure output directory exists locally
+    os.makedirs(output_dir, exist_ok=True)
+
     # List files in the bucket
     files = list_files(bucket_name, input_dir)
     print(f"Files to process {files}")
