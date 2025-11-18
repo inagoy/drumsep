@@ -1,13 +1,38 @@
-Run drumsep as a container. Useful to run in a cloud context or isolating dependencies
+# Drumsep – Containerized Execution
+
+Run the model in an isolated container environment or in a cloud context (Cloud Run Jobs).
 
 # Setup
 
-## GCP config
+## Recommended Deployment (no local Docker build, no manual submit)
+
+```
+gcloud init
+
+gcloud auth configure-docker
+
+gcloud run deploy my-drumsep-service \
+  --source . \
+  --region= \
+```
+
+This command:
+	•	packages your source code
+	•	sends it to Cloud Build
+	•	builds the container image (with or without a Dockerfile)
+	•	publishes it to Artifact Registry
+	•	deploys to Cloud Run
+	
+## Optional: Manual Build & Deploy (for CI/CD or full image control)
+
+  
+```
 	gcloud init
 
 	gcloud auth configure-docker
 
 	gcloud builds submit --tag gcr.io/[]/my-drumsep-image . 
+```
 
 After the build:
 You can verify this by checking the list of images in GCR:
