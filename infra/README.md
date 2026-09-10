@@ -53,7 +53,7 @@ gcloud run deploy drumsep-api \
   --image gcr.io/${PROJECT_ID}/drumsep-api:latest \
   --region $REGION \
   --service-account $SA_EMAIL \
-  --set-env-vars BUCKET_NAME=${BUCKET_NAME},ALLOWED_ORIGIN=${GH_PAGES_ORIGIN} \
+  --set-env-vars BUCKET_NAME=${BUCKET_NAME},ALLOWED_ORIGIN=${GH_PAGES_ORIGIN},RUNTIME_SERVICE_ACCOUNT=${SA_EMAIL} \
   --memory 8Gi --cpu 4 \
   --timeout 900 \
   --concurrency 1 \
