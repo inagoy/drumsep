@@ -23,7 +23,7 @@ para procesamiento masivo/offline sobre un bucket completo), este repo
 incluye una app web de punta a punta para separar stems bajo demanda:
 
 ```
-frontend/  ->  sitio estático (GitHub Pages): sube el audio y muestra los
+docs/      ->  sitio estático (GitHub Pages): sube el audio y muestra los
                links de descarga.
 api/       ->  servicio en Cloud Run (FastAPI): valida el origin, firma
                URLs de GCS y corre ffmpeg + demucs sobre un archivo.

@@ -78,10 +78,9 @@ Notas de sizing (ver también `dockerapp/GCP-job/README.md`, mismo modelo):
 
 ## 4. Frontend (GitHub Pages)
 
-1. Editar `frontend/config.js` con la URL del servicio de Cloud Run.
-2. Publicar el contenido de `frontend/` en GitHub Pages (Settings ->
-   Pages -> Deploy from a branch -> carpeta `/frontend`, o copiar a
-   `/docs` si se prefiere esa convención).
+1. Editar `docs/config.js` con la URL del servicio de Cloud Run.
+2. Publicar el contenido de `docs/` en GitHub Pages (Settings ->
+   Pages -> Deploy from a branch -> carpeta `/docs`).
 3. Confirmar que `GH_PAGES_ORIGIN` usado en el paso 3 y en
    `infra/bucket-cors.json` sea *exactamente* el origin publicado
    (protocolo + host, sin path), por ejemplo `https://usuario.github.io`
