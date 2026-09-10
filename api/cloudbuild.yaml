@@ -1,0 +1,12 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  entrypoint: 'bash'
+  args: ['-c', 'docker pull gcr.io/$PROJECT_ID/drumsep-api:latest || exit 0']
+- name: 'gcr.io/cloud-builders/docker'
+  args: [
+            'build',
+            '-t', 'gcr.io/$PROJECT_ID/drumsep-api:latest',
+            '--cache-from', 'gcr.io/$PROJECT_ID/drumsep-api:latest',
+            'api'
+        ]
+images: ['gcr.io/$PROJECT_ID/drumsep-api:latest']

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>drumsep &mdash; separador de stems de batería</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>drumsep</h1>
+    <p class="subtitle">
+      Subí una grabación de batería (mp3, wav, flac, ogg, m4a) y descargá
+      los stems separados: bombo, redoblante, platillos y toms.
+    </p>
+
+    <form id="upload-form">
+      <input id="file-input" type="file" accept="audio/*" required />
+      <button id="submit-btn" type="submit">Separar stems</button>
+    </form>
+
+    <p id="status" role="status"></p>
+    <progress id="progress" max="100" value="0" hidden></progress>
+
+    <ul id="results"></ul>
+
+    <footer>
+      <p>
+        El archivo se borra automáticamente del almacenamiento a los 7 días.
+        Los links de descarga son válidos por 24hs.
+      </p>
+    </footer>
+  </main>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

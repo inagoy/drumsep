@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://docker-audio-tools.github.io"],
+    "method": ["PUT", "GET"],
+    "responseHeader": ["Content-Type"],
+    "maxAgeSeconds": 3600
+  }
+]
