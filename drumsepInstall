@@ -2,11 +2,15 @@
 if [ $# -ne 0 ]; then
 	exit 1
 fi
-if [ "$(pip list | grep -F demucs)" == "" ]; then
-	pip install demucs
+if [ -f "requirements.txt" ]; then
+	pip install -r requirements.txt
+else
+	if [ "$(pip list | grep -F demucs)" == "" ]; then
+		pip install demucs
+	fi
 fi
-if [ ! -d "model" ] && [ $? -eq 0 ]; then
-	mkdir "model"
+if [ ! -d "model" ]; then
+	mkdir -p "model"
 	cd "model"
 	if [ "$(pip list | grep -F gdown)" == "" ]; then
 		pip install gdown

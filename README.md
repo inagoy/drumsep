@@ -20,8 +20,9 @@ To easily use the model online: <br />
 ### With Linux
 Having pip installed. <br />
   1. Clone repo.
-  2. Install.
+  2. Install requirements and model.
 ```bash
+pip install -r requirements.txt
 bash drumsepInstall
 ```
   3. Separate <br />

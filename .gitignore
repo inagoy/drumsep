@@ -1,0 +1,16 @@
+# Model weights (downloaded via drumsepInstall)
+model/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
